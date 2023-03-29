@@ -1,0 +1,292 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Services\\Employee.Sample.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Core\\Employee.Sample.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Core\\Employee.Sample.Core.csproj",
+        "projectName": "Employee.Sample.Core",
+        "projectPath": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Core\\Employee.Sample.Core.csproj",
+        "packagesPath": "C:\\Users\\이태형\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\이태형\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Data\\Employee.Sample.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Data\\Employee.Sample.Data.csproj",
+        "projectName": "Employee.Sample.Data",
+        "projectPath": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Data\\Employee.Sample.Data.csproj",
+        "packagesPath": "C:\\Users\\이태형\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\이태형\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Repository\\Employee.Sample.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Repository\\Employee.Sample.Repository.csproj",
+        "projectName": "Employee.Sample.Repository",
+        "projectPath": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Repository\\Employee.Sample.Repository.csproj",
+        "packagesPath": "C:\\Users\\이태형\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\이태형\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Data\\Employee.Sample.Data.csproj": {
+                "projectPath": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Data\\Employee.Sample.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Services\\Employee.Sample.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Services\\Employee.Sample.Services.csproj",
+        "projectName": "Employee.Sample.Services",
+        "projectPath": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Services\\Employee.Sample.Services.csproj",
+        "packagesPath": "C:\\Users\\이태형\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\이태형\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Core\\Employee.Sample.Core.csproj": {
+                "projectPath": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Core\\Employee.Sample.Core.csproj"
+              },
+              "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Data\\Employee.Sample.Data.csproj": {
+                "projectPath": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Data\\Employee.Sample.Data.csproj"
+              },
+              "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Repository\\Employee.Sample.Repository.csproj": {
+                "projectPath": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Repository\\Employee.Sample.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

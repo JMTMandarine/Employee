@@ -1,0 +1,12 @@
+C:\GitHub\Employee.Sample.API\Employee.Sample.Data\bin\Debug\net6.0\Employee.Sample.Data.deps.json
+C:\GitHub\Employee.Sample.API\Employee.Sample.Data\bin\Debug\net6.0\Employee.Sample.Data.dll
+C:\GitHub\Employee.Sample.API\Employee.Sample.Data\bin\Debug\net6.0\Employee.Sample.Data.pdb
+C:\GitHub\Employee.Sample.API\Employee.Sample.Data\obj\Debug\net6.0\Employee.Sample.Data.csproj.AssemblyReference.cache
+C:\GitHub\Employee.Sample.API\Employee.Sample.Data\obj\Debug\net6.0\Employee.Sample.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\Employee.Sample.API\Employee.Sample.Data\obj\Debug\net6.0\Employee.Sample.Data.AssemblyInfoInputs.cache
+C:\GitHub\Employee.Sample.API\Employee.Sample.Data\obj\Debug\net6.0\Employee.Sample.Data.AssemblyInfo.cs
+C:\GitHub\Employee.Sample.API\Employee.Sample.Data\obj\Debug\net6.0\Employee.Sample.Data.csproj.CoreCompileInputs.cache
+C:\GitHub\Employee.Sample.API\Employee.Sample.Data\obj\Debug\net6.0\Employee.Sample.Data.dll
+C:\GitHub\Employee.Sample.API\Employee.Sample.Data\obj\Debug\net6.0\refint\Employee.Sample.Data.dll
+C:\GitHub\Employee.Sample.API\Employee.Sample.Data\obj\Debug\net6.0\Employee.Sample.Data.pdb
+C:\GitHub\Employee.Sample.API\Employee.Sample.Data\obj\Debug\net6.0\ref\Employee.Sample.Data.dll

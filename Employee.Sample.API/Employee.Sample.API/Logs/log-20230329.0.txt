@@ -1,0 +1,22 @@
+2023-03-29 21:05:23.402 +09:00 [Information] Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7037
+2023-03-29 21:05:23.412 +09:00 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5041
+2023-03-29 21:05:23.420 +09:00 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2023-03-29 21:05:23.424 +09:00 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2023-03-29 21:05:23.426 +09:00 [Information] Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\Employee.Sample.API\Employee.Sample.API\
+2023-03-29 21:05:48.010 +09:00 [Error] Employee.Sample.Core.Middleware.ErrorHandlerMiddleware: Exception Error : not exist name employee : [test]
+2023-03-29 21:08:04.868 +09:00 [Information] Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7037
+2023-03-29 21:08:04.920 +09:00 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5041
+2023-03-29 21:08:04.933 +09:00 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2023-03-29 21:08:04.938 +09:00 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2023-03-29 21:08:04.942 +09:00 [Information] Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\Employee.Sample.API\Employee.Sample.API\
+2023-03-29 21:14:55.274 +09:00 [Information] Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7037
+2023-03-29 21:14:55.316 +09:00 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5041
+2023-03-29 21:14:55.338 +09:00 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2023-03-29 21:14:55.342 +09:00 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2023-03-29 21:14:55.344 +09:00 [Information] Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\Employee.Sample.API\Employee.Sample.API\
+2023-03-29 21:16:55.435 +09:00 [Information] Microsoft.Hosting.Lifetime: Now listening on: https://localhost:7037
+2023-03-29 21:16:55.446 +09:00 [Information] Microsoft.Hosting.Lifetime: Now listening on: http://localhost:5041
+2023-03-29 21:16:55.455 +09:00 [Information] Microsoft.Hosting.Lifetime: Application started. Press Ctrl+C to shut down.
+2023-03-29 21:16:55.459 +09:00 [Information] Microsoft.Hosting.Lifetime: Hosting environment: Development
+2023-03-29 21:16:55.460 +09:00 [Information] Microsoft.Hosting.Lifetime: Content root path: C:\GitHub\Employee.Sample.API\Employee.Sample.API\
+2023-03-29 21:17:07.855 +09:00 [Error] Employee.Sample.Core.Middleware.ErrorHandlerMiddleware: [/api/Employee/1234][Method : GET] [Exception Error] : not exist name employee : [1234]

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "qq9lbXmyaKv15VzrdFr5eUUaAdeCNNpvMGlTAOpuO0Iu3/E+7BqltjDdtxCCYcUshKVvXFy3f6572QDijnl9MA==",
+  "success": true,
+  "projectFilePath": "C:\\GitHub\\Employee.Sample.API\\Employee.Sample.Core\\Employee.Sample.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\이태형\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\이태형\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\이태형\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\이태형\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\이태형\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\이태형\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\이태형\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
